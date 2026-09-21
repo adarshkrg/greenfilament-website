@@ -19,6 +19,7 @@ import Footer from "../../components/Footer";
 import { blogPosts } from "../../data/blog";
 import { use } from "react";
 import FaqSchema from "../../components/FaqSchema";
+import ShareBar from "../../components/ShareBar";
 
 /* ============================================================
    INLINE LINK PARSER
@@ -250,6 +251,11 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
               </div>
 
             </div>
+
+            {/* ============================================================
+                SHARE
+                ============================================================ */}
+            <ShareBar url={`https://greenfilament.com/blogs/${post.slug}`} title={post.title} />
 
             {/* ============================================================
                 FAQ SECTION

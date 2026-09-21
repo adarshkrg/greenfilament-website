@@ -1823,6 +1823,140 @@ export const blogPosts: BlogPost[] = [
   },
   /* --- end of blog-12 --- */
 
+    /* ============================================================
+     POST 13 — Ganjam or Baleshwar? Odisha's Rooftop Solar Leaders
+     ============================================================ */
+
+  {
+    slug: "odisha-district-rooftop-solar-ganjam-baleshwar",
+    title: "Ganjam or Baleshwar? Which Odisha District Leads in Rooftop Solar in 2026",
+    date: "2026-09-22",
+    category: "Rooftop Solar",
+    excerpt: "Three discom releases in five weeks put different districts on top. We lined up every figure with its date, and looked at where Khordha and Cuttack stand.",
+    image: "/images/blogs/odisha-district-solar-race.jpg",
+    readTime: "6 min read",
+    keywords: [
+      "rooftop solar Odisha district wise",
+      "Ganjam rooftop solar installations",
+      "Baleshwar rooftop solar installations",
+      "which district leads rooftop solar Odisha",
+      "rooftop solar Khordha Cuttack 2026",
+    ],
+    sections: [
+      {
+        type: "p",
+        text: "A state ranking tells you how Odisha is doing. District numbers tell you how your own neighbourhood is doing, and they are far more useful if you are deciding whether rooftop solar is worth it for your home. We collected every district figure published in the last five weeks and put each one next to its date, because the answer to who is leading changes depending on which release you read.",
+      },
+      {
+        type: "h2",
+        text: "Three Snapshots, Three Different Leaders",
+      },
+      {
+        type: "p",
+        text: "The first snapshot came around 18 to 20 August, based on the MNRE portal data shared by Tata Power. It had Baleshwar in front with 16,069 installations, then Ganjam with 15,301, Khordha with 14,236 and Cuttack with 13,343. The same report said these four districts together account for about 143 MWp of capacity, out of roughly 410 MWp commissioned across the state [1].",
+      },
+      {
+        type: "p",
+        text: "The second snapshot arrived on 21 August from TPSODL, which serves southern Odisha. It put Ganjam on top with 16,418 installations, just ahead of Baleshwar at 16,407, followed by Khordha with 14,603, Cuttack with 13,758 and Mayurbhanj with 9,751 [2]. Ganjam alone made up a big share of the 25,277 installations TPSODL counted across its eight districts [4].",
+      },
+      {
+        type: "p",
+        text: "The third snapshot is from 5 September, when TPNODL announced it had crossed 50,000 installations across its five northern districts, reaching 51,004 in total. Baleshwar stood at 18,559, followed by Mayurbhanj with 10,824, Jajpur with 9,295, Bhadrak with 6,575 and Kendujhar with 5,751 [3].",
+      },
+      {
+        type: "highlight",
+        text: "Ganjam led the 21 August snapshot with 16,418 installations. Baleshwar reached 18,559 by 5 September. We could not find a newer Ganjam figure, so we cannot say who leads today. Treat any post that names one winner with suspicion, including ours.",
+      },
+      {
+        type: "h2",
+        text: "Why Baleshwar Looks Like It Is Pulling Ahead",
+      },
+      {
+        type: "p",
+        text: "If both the 21 August and 5 September numbers are accurate, Baleshwar added roughly 2,100 installations in about two weeks. That comparison comes from two different discom releases, so it is a rough guide and not an exact monthly rate. TPNODL credits the growth to a mix of public subsidies, local execution support, simplified application workflows and dedicated consumer services [3].",
+      },
+      {
+        type: "h2",
+        text: "What Is Driving Ganjam",
+      },
+      {
+        type: "p",
+        text: "In Ganjam, the district collector said people have shown strong interest in the scheme, and set a goal of adding another 25,000 systems by the end of March 2027 [2]. TPSODL, the implementing discom, attributes the result to grassroots outreach and a utility-led aggregation model across its eight southern districts [2].",
+      },
+      {
+        type: "h2",
+        text: "What Raw Counts Do Not Tell You",
+      },
+      {
+        type: "p",
+        text: "A district with more households will naturally record more installations, so these numbers show scale and not how deeply solar has reached each family. None of the sources we found publish installations per household, so we will not guess a per-district adoption rate. What the counts do show is that solar is no longer a big city story. Mayurbhanj, Jajpur and Bhadrak are now recording thousands of systems each.",
+      },
+      {
+        type: "h2",
+        text: "Where Khordha and Cuttack Stand",
+      },
+      {
+        type: "p",
+        text: "Khordha, which includes Bhubaneswar, and Cuttack held third and fourth place in both August snapshots, with 14,603 and 13,758 installations in the later one [2]. If you are in either city, you can read how a typical installation works on our [rooftop solar in Bhubaneswar](/rooftop-solar-bhubaneswar) and [rooftop solar in Cuttack](/rooftop-solar-cuttack) pages.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Thinking of Going Solar",
+      },
+      {
+        type: "p",
+        text: "Eligible households can receive combined central and state assistance of up to ₹1.38 lakh for a 3 kWp system, subject to scheme guidelines [5]. We explain how that adds up in our post on [3kW solar price in Odisha after subsidy](/blogs/3kw-solar-price-odisha-after-subsidy-2026). To see what your own bill could look like, try the [solar ROI calculator](/solar-roi-calculator), and if you want a site assessment, [talk to us](/connect). For the statewide picture and the women trained as installers, see our [Solar Didi post](/blogs/solar-didi-programme-odisha).",
+      },
+      {
+        type: "h2",
+        text: "Sources",
+      },
+      {
+        type: "p",
+        text: "[1] Deccan Chronicle, Odisha climbs to 7th nationally in rooftop solar installations, 20 Aug 2026. [Read source](https://www.deccanchronicle.com/nation/in-other-news/odisha-climbs-to-7th-nationally-in-rooftop-solar-installations-1980677)",
+      },
+      {
+        type: "p",
+        text: "[2] OrissaPOST, Ganjam leading Odisha in rooftop solar panel installation, Aug 2026. [Read source](https://www.orissapost.com/ganjam-leading-odisha-in-rooftop-solar-panel-installation/)",
+      },
+      {
+        type: "p",
+        text: "[3] Odisha Diary, TPNODL surpasses 50,000 rooftop solar installations in Northern Odisha, 5 Sep 2026. [Read source](https://orissadiary.com/tpnodl-surpasses-50000-rooftop-solar-installations-in-northern-odisha/)",
+      },
+      {
+        type: "p",
+        text: "[4] Pragativadi, Ganjam emerges as Odisha's solar leader; 25,277 installations across 8 districts, Aug 2026. [Read source](https://pragativadi.com/ganjam-emerges-as-odishas-solar-leader-25277-installations-across-8-districts/)",
+      },
+      {
+        type: "p",
+        text: "[5] India Whispers, Odisha ranks 7th in India in rooftop solar, crosses 1.5 lakh installations, 18 Aug 2026. [Read source](https://indiawhispers.com/2026/08/18/odisha-ranks-7th-in-india-in-rooftop-solar-crosses-1-5-lakh-installations/)",
+      },
+      {
+        type: "p",
+        text: "Figures are based on discom releases and MNRE portal data as reported by the outlets above.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which district has the most rooftop solar installations in Odisha?",
+        a: "It depends on the date. On 21 August, Ganjam led with 16,418 installations. On 5 September, TPNODL reported 18,559 for Baleshwar. We found no newer Ganjam figure, so the race is open.",
+      },
+      {
+        q: "Where do these district figures come from?",
+        a: "They come from discom releases and news reports based on MNRE portal data, listed in the sources at the end of this post. Figures were published on different dates, so we show the date next to each one.",
+      },
+      {
+        q: "Are Khordha and Cuttack among the top districts?",
+        a: "Yes. In both August snapshots, Khordha and Cuttack were third and fourth, with 14,603 and 13,758 installations in the 21 August figures.",
+      },
+      {
+        q: "How much subsidy can a household get in Odisha?",
+        a: "Combined central and state assistance can reach up to ₹1.38 lakh for a 3 kWp system, subject to capacity, consumer category and scheme guidelines.",
+      },
+    ],
+  },
+  /* --- end of blog-13 --- */
+
 ];
 
 /* --- Categories for filter --- */
