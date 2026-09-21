@@ -5,8 +5,17 @@
    - All visual content + FAQ accordion + auto-advancing
      project carousel (Bhubaneswar + Cuttack)
    - Subsidy table: 4-column table on desktop, stacked cards
-     on mobile, since "up to" values conflicted with earlier
-     fixed figures and needed correction after verification
+     on mobile
+   - Verified 22 Sep 2026 against:
+     * MNRE PM Surya Ghar CFA guidelines (July 2025 edition):
+       central subsidy structure, DCR panel rule, e-token
+       redemption, 15 day processing, 31 March 2027 end date,
+       1 crore active application limit
+     * Odisha cabinet decision (3 Jan 2025) + Tata Power release:
+       state subsidy Rs 25,000 (1kW), Rs 50,000 (2kW),
+       up to Rs 60,000 (3kW and above)
+   - Application steps written as Green Filament hand-holding
+     the consumer through the portal
    - Mobile responsive, matches site pattern
    ============================================================ */
 
@@ -32,7 +41,7 @@ const pmSuryaGharFaqs = [
    ============================================================ */
 const subsidyTiers = [
   { size: "1 kW", central: "₹30,000", state: "₹25,000", total: "₹55,000", highlight: false },
-  { size: "2 kW", central: "₹60,000", state: "Up to ₹40,000", total: "Up to ₹1,00,000", highlight: false },
+  { size: "2 kW", central: "₹60,000", state: "₹50,000", total: "₹1,10,000", highlight: false },
   { size: "3 kW", central: "₹78,000", state: "Up to ₹60,000", total: "Up to ₹1,38,000", highlight: true },
 ];
 
@@ -223,7 +232,7 @@ export default function PmSuryaGharClient() {
             <div className="psg-cost-grid">
               {[
                 { size: "1 kW", before: "₹70k - 90k", subsidy: "₹55,000", net: "₹15k - 35k" },
-                { size: "2 kW", before: "₹1.4L - 1.7L", subsidy: "Up to ₹1,00,000", net: "₹40k - 70k" },
+                { size: "2 kW", before: "₹1.4L - 1.7L", subsidy: "₹1,10,000", net: "₹30k - 60k" },
                 { size: "3 kW", before: "₹2.2L - 2.6L", subsidy: "Up to ₹1,38,000", net: "₹82k - 1.22L" },
                 { size: "5 kW", before: "₹3.5L - 4L", subsidy: "Up to ₹1,38,000", net: "₹2.12L - 2.62L" },
               ].map((row) => (
@@ -268,7 +277,7 @@ export default function PmSuryaGharClient() {
               Who Is Eligible
             </h2>
             <p style={{ fontSize: "15px", color: "#555", lineHeight: 1.9, textAlign: "justify" }}>
-              Any homeowner with their own rooftop and a valid electricity connection can apply. Your roof needs to be shadow-free for most of the day, with at least 100 square feet of space for a 1kW system, or around 300 square feet for a 3kW system. Only panels made in India, listed under the government&apos;s approved manufacturer list, qualify for the subsidy.
+              Any homeowner with their own rooftop and a valid electricity connection can apply. Your roof needs to be shadow-free for most of the day, with at least 100 square feet of space for a 1kW system, or around 300 square feet for a 3kW system. Solar panels must be made in India using Indian-made solar cells, and must be listed on the government&apos;s approved list, to qualify for the subsidy.
             </p>
           </div>
         </div>
@@ -305,12 +314,12 @@ export default function PmSuryaGharClient() {
             </div>
             <div className="psg-steps-grid">
               {[
-                { step: "1", title: "Register", desc: "Register on the official PM Surya Ghar portal, or we do this for you." },
-                { step: "2", title: "Feasibility Approval", desc: "Your DISCOM reviews and approves feasibility for your rooftop." },
-                { step: "3", title: "Installation", desc: "System is installed by our team with approved, Indian-made panels." },
-                { step: "4", title: "Inspection Request", desc: "We submit the inspection request to your DISCOM on your behalf." },
-                { step: "5", title: "Net Meter Installed", desc: "TPCODL installs the net meter after inspection is complete." },
-                { step: "6", title: "Subsidy Credited", desc: "Subsidy is credited directly to your bank account." },
+                { step: "1", title: "Register", desc: "We register your application on the official PM Surya Ghar portal using your electricity consumer number." },
+                { step: "2", title: "Installation", desc: "Our team installs the system with approved, Indian-made panels." },
+                { step: "3", title: "Upload Details", desc: "We upload the system details and geo-tagged photos to the portal for you." },
+                { step: "4", title: "Inspection Request", desc: "We submit the inspection request to your DISCOM and coordinate the net metering agreement." },
+                { step: "5", title: "Net Meter Installed", desc: "Your DISCOM installs the net meter after inspection is complete." },
+                { step: "6", title: "Subsidy Credited", desc: "We guide you to redeem the subsidy on the portal, and it is credited to your bank or loan account." },
               ].map((item) => (
                 <div key={item.step} style={{ background: "#fff", border: "0.5px solid #E8E2D8", borderRadius: "14px", borderTop: "3px solid #FDB92E", padding: "20px" }}>
                   <div style={{ fontSize: "22px", fontWeight: 800, color: "#FDB92E", marginBottom: "8px" }}>{item.step}</div>
@@ -353,7 +362,7 @@ export default function PmSuryaGharClient() {
               When Does the Subsidy Arrive
             </h2>
             <p style={{ fontSize: "15px", color: "#555", lineHeight: 1.9, textAlign: "justify" }}>
-              Once your system is installed and your DISCOM completes the inspection, the subsidy is usually credited to your bank account within 30 to 45 days.
+              Under the scheme guidelines, the subsidy is to be processed within 15 days of your DISCOM approving the installation. You then redeem your subsidy on the portal, and we guide you through it. The total time depends on how quickly your DISCOM completes inspection and metering.
             </p>
           </div>
         </div>
@@ -387,7 +396,7 @@ export default function PmSuryaGharClient() {
               How Long Is This Scheme Available
             </h2>
             <p style={{ fontSize: "15px", color: "#555", lineHeight: 1.9, textAlign: "justify" }}>
-              The scheme is set to run until 31 March 2027, or until 1 crore homes across India are covered, whichever happens first. Once either of these is reached, the central subsidy under this scheme closes.
+              The scheme runs until 31 March 2027. The national portal accepts up to 1 crore active applications, and once that limit is reached the Ministry may set a time limit for finishing installations. Check the official portal before you apply.
             </p>
           </div>
         </div>

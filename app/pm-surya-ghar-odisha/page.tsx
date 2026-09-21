@@ -28,9 +28,10 @@ const pmSuryaGharFaqs = [
    SEO METADATA
    ============================================================ */
 export const metadata: Metadata = {
-  title: "PM Surya Ghar Yojana Odisha 2026: Subsidy Up to ₹1,38,000",
-description:
-    "PM Surya Ghar Yojana in Odisha, 2026 update: get up to ₹1,38,000 combined central and state subsidy on a 3kW rooftop solar system. Eligibility, documents, and how to apply, explained simply.",
+  title: "PM Surya Ghar Yojana Odisha 2026: Subsidy Up to ₹1,38,000",  
+  description:
+    "Up to ₹1,38,000 central plus Odisha state subsidy on a 3kW rooftop solar system. Eligibility, documents, how to apply and why applications get rejected.",
+
   keywords: [
     "PM Surya Ghar Odisha",
     "PM Surya Ghar subsidy Odisha",
